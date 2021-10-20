@@ -17,6 +17,7 @@
          </div>
         <% else %> 
           <ul class="navbar-nav">
+            <!-- 新規ユーザ登録とログイン画面ではナビバーのSignupとLoginにリンクをつける -->
             <li class="nav-item"><%= link_to 'Signup', signup_path, class: 'nav-link' %></li>
             <li class="nav-item"><%= link_to 'Login', login_path, class: 'nav-link' %></li>
           </ul>
